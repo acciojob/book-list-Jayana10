@@ -21,6 +21,6 @@
 
         document.getElementById("book-list").addEventListener("click", function(e) {
             if (e.target.classList.contains("delete")) {
-                e.target.parentElement.parentElement.remove();
+               e.target.closest("tr").remove();
             }
         });
