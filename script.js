@@ -1,14 +1,10 @@
 //your JS code here. If required.
   document.getElementById("submit").addEventListener("click", function() {
-            let title = document.getElementById("title").value.trim();
-            let author = document.getElementById("author").value.trim();
-            let isbn = document.getElementById("isbn").value.trim();
+            let title = document.getElementById("title");
+            let author = document.getElementById("author");
+            let isbn = document.getElementById("isbn");
             
-            if (title === "" || author === "" || isbn === "") {
-                alert("Please fill in all fields");
-                return;
-            }
-            
+         
             let bookList = document.getElementById("book-list");
             let row = document.createElement("tr");
             row.innerHTML = `
