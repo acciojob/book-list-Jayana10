@@ -3,8 +3,7 @@
             let title = document.getElementById("title");
             let author = document.getElementById("author");
             let isbn = document.getElementById("isbn");
-            
-         
+	  
             let bookList = document.getElementById("book-list");
             let row = document.createElement("tr");
             row.innerHTML = `

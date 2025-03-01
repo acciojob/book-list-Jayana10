@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+#submit{
+	background-color:blue;
+	color:white;
+}
+#title{
+	width:600px;
+	height:20px;
+}
+#author{
+	width:600px;
+	height:20px;
+}
+#isbn{
+	width:600px;
+	height:20px;
+}
+#book-list{
+	background-color:grey;
+	color:black;
+	border:1px solid black;
+}
