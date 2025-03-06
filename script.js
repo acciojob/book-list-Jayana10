@@ -13,10 +13,11 @@
                 <td><button class="delete">delete</button></td>
             `;
             bookList.appendChild(row);
+	        
             
-            document.getElementById("title").value = "";
-            document.getElementById("author").value = "";
-            document.getElementById("isbn").value = "";
+        //     document.getElementById("title").value = "";
+        //     document.getElementById("author").value = "";
+        //     document.getElementById("isbn").value = "";
         });
 
         document.getElementById("book-list").addEventListener("click", function(e) {
